@@ -1,0 +1,65 @@
+*{
+  list-style:none;
+}
+
+
+.octodex{
+display:flex;
+flex-direction:row;
+max-width:100%;
+box-sizing:border-box;
+}
+.octocat{
+  width:100%;
+  display:inline-block;
+height:auto;
+
+
+}
+img{
+  width:95%;
+  height:auto;
+  border:1px solid grey;
+  border-radius:5px;
+
+}
+
+.image-footer{
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  border-bottom: 1px solid #cacaca;
+  position: relative;
+  width:95%;
+  border-bottom:1px solid grey;
+  display:inline-block;
+
+
+}
+.image-number::before{
+  content:'#';
+}
+.image-number{
+      text-align:left;
+
+}
+.authors img{
+  margin-top:10px;
+  position:relative;
+  float:right;
+  max-width:15%;
+  margin-bottom:10px;
+
+}
+.image-caption {
+
+    font-size: 1em;
+    margin-left: 100px;
+    text-align:right;
+
+}
+.image-caption a{
+  text-decoration:none;
+  color:black;
+  font-weight: bold;
+}
